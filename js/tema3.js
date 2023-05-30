@@ -1,0 +1,37 @@
+$(function(){
+
+        $.ajax({
+
+          url: "./json/tema3.json",
+
+          dataType: "json",
+
+          success : function(data){
+
+            if(data.length>0){
+
+
+
+              for(var i in data){
+            
+                
+                $("#tema > .box:eq(2) > .product_box").eq(i).find("img").eq(0).attr("src", "img/"+data[i].url); 
+
+                $("#tema > .box:eq(2) > .product_box").eq(i).find("h4").text(data[i].title);    
+
+                $("#tema >.box:eq(2) > .product_box").eq(i).find("span").text(data[i].price);
+
+                $("#tema > .box:eq(2) > .product_box").eq(i).find("p").text(data[i].subprice);
+
+               
+
+    
+              }
+            }
+
+          }
+
+        })
+
+      
+      });

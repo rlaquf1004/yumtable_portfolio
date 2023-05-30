@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>얌테이블</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    
+
+    <!--MD픽--->
+    <script src="js/MD_pick.js"></script>
+    <!--세일-->
+    <script src="js/sale.js"></script>
+    <!--추천상품-->
+    <script src="js/suggest.js"></script>
+    <!--이달의 베스트 상품-->
+    <script src="js/best.js"></script>
+
+    <!--별별 테마픽 테마1-->
+    <script src="js/tema1.js"></script>
+    <!--별별 테마픽 테마2-->
+    <script src="js/tema2.js"></script>
+    <!--별별 테마픽 테마3-->
+    <script src="js/tema3.js"></script>
+
+    <!--인스타 사진-->
+    <script src="js/insta.js"></script>
+
+
+    <!--슬라이더 제이쿼리-->
+    <script src="js/slider_script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="box1">
+
+
+            <div id="logo">
+                <a href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+
+            <div id="login">
+
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li>|</li>
+                    <li><a href="#">회원가입</a></li>
+                    <li>|</li>
+                    <li><a href="#">주문배송</a></li>
+                    <li>|</li>
+                    <li><a href="#">고객센터</a></li>
+                    <li>|</li>
+                    <li><a href="#">관심상품</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="box2">
+
+            <div id="head_bar">
+
+                <div class="all_menu">
+                    <h1><a href="sub.html" target="_self">판매상품 전체보기</a></h1>
+
+                    <ul class="seafood">
+                        <li><a href="#">해산물</a></li>
+                        <li><a href="#">문어 · 오징어 · 연체류</a></li>
+                        <li><a href="#">게 · 새우 · 갑각류</a></li>
+                        <li><a href="#">조개 · 소라류</a></li>
+                        <li><a href="#">생선류</a></li>
+                        <li><a href="#">건어물 · 주전부리</a></li>
+                        <li><a href="#">김 · 미역 · 해조류</a></li>
+                        <li><a href="#">농산물</a></li>
+                        <li><a href="#">젓갈 · 장 · 절임류</a></li>
+                        <li><a href="#">밀키트 · 간편식</a></li>
+                        <li><a href="#">선물세트</a></li>
+                    </ul>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="sub.html" target="_self">전체상품</a></li>
+                        <li><a href="sub.html" target="_self">타임딜</a></li>
+                        <li><a href="sub.html" target="_self">베스트</a></li>
+                        <li><a href="sub.html" target="_self">쿠폰존</a></li>
+                        <li><a href="sub.html" target="_self">제철수산물</a></li>
+                        <li><a href="sub.html" target="_self">신선회코너</a></li>
+                        <li><a href="sub.html" target="_self">반찬/요리</a></li>
+                        <li><a href="sub.html" target="_self">건어물</a></li>
+                    </ul>
+                </nav>
+
+                <div class="small_menu">
+                    <ul>
+                        <li><a href="sub.html" target="_self">레시피</a></li>
+                        <li><a href="sub.html" target="_self">이벤트/혜택</a></li>
+                        <li><a href="sub.html" target="_self">구매후기</a></li>
+                        <li><a href="sub.html" target="_self">커뮤니티</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div id="slidewrap">
+        <ul class="slide">
+            <li><a href="#"><img src="img/slider_img.jpg" alt="사이드"></a></li>
+            <li><a href="#"><img src="img/slider_img2.jpg" alt="사이드"></a></li>
+            <li><a href="#"><img src="img/slider_img3.jpg" alt="사이드"></a></li>
+        </ul>
+
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
+    </div>
+
+    <section>
+        <div id="md">
+            <h1>믿고 사는 MD PICK</h1>
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt="홍게"></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style01">
+                        <h6></h6>
+                        <img src="" alt="무료배송" id="free">
+                        <img src="" alt="인기" id="hot">
+                    </div>
+                    
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                    </div>
+                    
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        </div>
+
+        <div id="sale">
+            <h1>세일중인 항목!!!</h1>
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="img/img5.jpg" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style01">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                        <img src="" alt="세일" id="sale_button">
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                    
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                    
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <a href="sub.html" target="_self"><img src="" alt=""></a>
+                <h3><a href="sub.html" target="_self"></a></h3>
+                <p><a href="sub.html" target="_self"></a></p>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+        <div id="suggest">
+            <h1>이 상품 어때요?</h1>
+
+            <div class="box">
+                <a href="#"><img src="" alt="새우"></a>
+                <h3><a href="#"></a></h3>
+                <p><a href="#"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <p><a href="#"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <p><a href="#"></a></p>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+            
+            </div>
+
+            <div class="box">
+                <a href="#"><img src="" alt="새우"></a>
+                <h3><a href="#"></a></h3>
+                <p><a href="#"></a></p>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+            
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+        <div id="best">
+            <h1>이 달의 베스트 상품</h1>
+
+            <ul>
+
+                <li>어패류</li>
+                <li><a href="#">#생선류</a></li>
+                <li><a href="#">#연체류</a></li>
+                <li><a href="#">#갑각류</a></li>
+                <li><a href="#">#간편식</a></li>
+                <li><a href="#">#해산물</a></li>
+                <li><a href="#">#건어물</a></li>
+            </ul>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+                
+                
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+
+                </div>
+                
+            </div>
+
+
+            <div class="box">
+                <a href="#"><img src="" alt=""></a>
+                <h3><a href="#"></a></h3>
+                <span></span>
+
+                <div class="style_box">
+                    <div class="style1">
+                        <h6></h6>
+                        <img src="" alt="새벽배송" id="dawn">
+                    </div>
+
+                    <div class="style2">
+                        <p id="percent"></p>
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <div id="tema">
+            <h1>별별테마픽</h1>
+
+            <div class="box">
+                <a href="#"><img src="img/tema1.jpg" class="img1"></a>
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                    <img src="" alt="새벽배송" id="dawn">
+                </div>
+
+
+                <div class="product_box">
+                    <a href=""><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                    <img src="" alt="새벽배송" id="dawn">
+                </div>
+
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                    <img src="" alt="새벽배송" id="dawn">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="box">
+                <a href="#"><img src="img/tema2.jpg" class="img1"></a>
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+
+                </div>
+
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                </div>
+
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="box">
+                <a href="#"><img src="img/tema3.jpg" class="img1"></a>
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+
+                </div>
+
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                </div>
+
+
+                <div class="product_box">
+                    <a href="#"><img src="" alt="홍게"></a>
+                    <h4></h4>
+                    <span></span>
+                    <p></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="insta">
+            <h1>얌테이블 인스타그램</h1>
+            <div class="iconbox">
+                <a href="#"><img src="" alt="인스타그램"></a>
+
+            </div>
+
+
+            <div class="iconbox">
+                <a href="#"><img src="" alt="인스타그램"></a>
+
+            </div>
+
+
+            <div class="iconbox">
+                <a href="#"><img src="" alt="인스타그램"></a>
+
+            </div>
+
+
+            <div class="iconbox">
+                <a href="#"><img src="" alt="인스타그램"></a>
+
+            </div>
+
+            <div class="iconbox">
+                <a href="#"><img src="" alt="인스타그램"></a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <div id="information">
+
+            <div id="infor_menu">
+
+                <div class="box">
+                    <label>CUSTOMER CENTER</label>
+                    <h1>055-645-8999</h1>
+                    <p>상담운영 09:00~17:00 (주말,법정공휴일 휴무)
+                    <ul>
+                        <li><a href=link>전화문의 전 클릭</a></li>
+                        <li><a href=link>1:1문의하기</a></li>
+                    </ul>
+
+
+                </div>
+
+                <div class="box">
+                    <label>ACCOUNT</label>
+                    <h1>301-0210-2436-01</h1>
+                    <p>ㆍ입금정보 : NH농협 / (주)얌테이블</p>
+                </div>
+
+                <div class="box">
+                    <label>SERVICE CENTER</label>
+                    <ul>
+
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">마일리지</a></li>
+                        <li><a href="#">자주묻는 질문</a></li>
+                        <li><a href="#">쿠폰</a></li>
+                        <li><a href="#">구매후</a>기</li>
+                        <li><a href="#">배송/교환문의</a></li>
+                        <li><a href="#">구매문의</a></li>
+                        <li><a href="#">제휴문의</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="box">
+                    <label>NOTICE</label>
+                    <ul class="last_information">
+
+                        <li><a href="#">ㆍ 개인정보처리방침 개정안내</a></li>
+                        <li><a href="#">ㆍ 새벽배송 상품 기본 배송방식 변경 안내</a></li>
+                        <li><a href="#">ㆍ 얌테이블 선물하기 서비스 OPEN🎁</a></li>
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="footer_box">
+
+
+            <ul>
+
+                <li><a href="#">홈</a></li>
+                <li>|</li>
+                <li><a href="#">회사소개</a></li>
+                <li>|</li>
+                <li><a href="#">이용약관</a></li>
+                <li>|</li>
+                <li><span><a href="#">개인정보 처리방침</a></span></li>
+                <li>|</li>
+                <li><a href="#">이용안내</a></li>
+                <li>|</li>
+                <li><a href="#">제휴파트너쉽</a></li>
+
+            </ul>
+
+            <p>얌테이블 대표자 :주상현 사업자등록번호 :227-81-21666 <span><a href="#">사업자번호조회 ></a></span> 통신판매업신고번호
+                :제2019-경남거제-0070호<br>TEL :<b>055-645-8999</b> FAX :055-633-8996 E-MAIL : <span><a
+                        href="#">mkt@yamtable.com</a></span> 주소 :경상남도 거제시 둔덕면 학산3길 40-2 주식회사 얌테이블
+                개인정보관리책임자 :신동근
+
+                <br><br>copyright. 2020. <b>yamtable.com.</b> All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        //네비 ul 슬라이드 다운
+        $(".all_menu").mouseover(function () {
+            $(this).children(".seafood").stop().slideDown();
+
+        }).mouseout(function () {
+            $(".seafood").stop().slideUp();
+
+        })
+
+    </script>
+
+</body>
+
+</html>
